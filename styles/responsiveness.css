@@ -1,0 +1,29 @@
+@media  screen and (max-width:576px) {
+
+    /* Shared Design */
+
+
+    .display-none{
+    display: none;
+}
+/* Navigation Bar Responsiveness */
+
+header nav{
+    color:white;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding:  0px ; */
+
+}
+
+/* .nav-logo{
+    width: 137px;
+} */
+header nav .nav-hamburger{
+    display:inline;
+}
+    
+}

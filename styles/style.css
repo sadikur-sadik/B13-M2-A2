@@ -19,7 +19,7 @@ header nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1rem 0;
 
 }
 header nav ul{
@@ -45,4 +45,8 @@ header nav .nav-button button{
 }
 header nav .nav-button button img{
     background: transparent;
+}
+
+header nav .nav-hamburger{
+    display: none;
 }
