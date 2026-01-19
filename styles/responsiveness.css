@@ -132,5 +132,98 @@ header nav .nav-hamburger{
 
 /* choose techwave section ends here */
 
+ /* Featured Episodes starts here  */
 
+ .episodes-section{
+    padding: 40px 0px;
+
+ }
+.episodes-section .e-container{
+    width:91%;
+    margin: 0 auto;
+    /* color:white; */
+}
+.episodes-section .e-container>h1{
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+.video-episodes{
+    grid-template-columns:1fr;
+    gap:24px;
+}
+.video-episodes .episode{
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 24px;
+    
+    
+}
+
+.video-episodes .episode .contentofepisode{
+    padding:16px;
+}
+.contentofepisode h5{
+    font-size: 20px;
+}
+
+.contentofepisode>p{
+    margin: 8px 0px;
+}
+
+
+/* Host starts Here */
+.host{
+    margin-top: 60px;
+}
+.host>h1{
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+.host-content{
+    flex-direction: column;
+    padding:24px;
+    text-align: center;
+    row-gap:16px;
+}
+.host-content .host-bio{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+.host-content .host-bio h1{
+    font-size: 24px;
+}
+
+.host-content .host-bio .host-contacts {
+    justify-content: center;
+}
+ /* Featured Episodes ends here  */
+                                    /* Main Ends Here */
+
+
+                                /* Footer starts Here */
+
+footer .footer{
+    padding: 40px 0;
+   
+}
+.footer-content{
+    max-width: 91%;
+    row-gap: 24px;
+}
+.footer-logo img{
+    width:49%;
+
+}
+.social-platforms{
+    width:255px;
+    grid-template-columns: repeat(2,1fr);
+    gap:16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus{
+    width: 152px;
+}
+/* End */
 }
