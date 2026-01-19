@@ -59,5 +59,34 @@ header nav .nav-hamburger{
 }
 
 /* Header Responsiveness is completed */
+
+/* main */
+/* Podcast Rating starts Here */
+
+.about{
+    padding:40px 0px;
+}
+
+.about-div{
+    width: 91%;
+}
+
+.about-div .about-podcast h3{
+    font-size: 32px;
+}
+
+.about-div hr{
+    margin-top: 39.5px;
+    margin-bottom: 39.5px;
+}
+.about-rating{
+    grid-template-columns: repeat(2,1fr);
+    gap:40px;
     
+}
+.about-rating h2{
+    font-size: 40px;
+
+}
+/* Podcast Rating Ends Here */
 }

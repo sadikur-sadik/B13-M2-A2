@@ -29,6 +29,7 @@
 header{
     max-width: 1600px;
     background-color: rgba(26, 11, 46, 1);
+    margin: 0;
 }
 
 header nav{
@@ -67,7 +68,9 @@ header nav .nav-hamburger{
     display: none;
 }
 
-
+header hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
 /* Navigation is done */
 
 .hero{
@@ -159,3 +162,60 @@ header nav .nav-hamburger{
 }
 
 /* Header is completed */
+
+/* Main starts here */
+/* Podcast rating */
+main{
+    max-width: 1600px;
+    background-color: rgba(26, 11, 46, 1);
+    
+}
+
+.about{
+    max-width: 100%;
+    padding:50px 0px 120px 0px;
+    
+}
+
+.about-div{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-div .about-podcast h3{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.about-div .about-podcast p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+}
+.about-div hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.about-rating{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    gap:80px;
+    
+}
+.about-rating h2{
+    color: rgba(0, 255, 136, 1);
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom:16px;
+}
+.about-rating p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Podcast Rating Ends Here */
