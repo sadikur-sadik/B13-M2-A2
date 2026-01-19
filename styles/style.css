@@ -7,7 +7,9 @@
 }
 
 /* common classes  */
-
+body{
+     background-color: rgba(26, 11, 46, 1);
+}
 .gradient-btn{
      background: linear-gradient(45deg ,yellow , rgb(255, 4, 100)  , purple );
      color:rgba(255, 255, 255, 1);
@@ -28,7 +30,7 @@
 
 header{
     max-width: 1600px;
-    background-color: rgba(26, 11, 46, 1);
+    /* background-color: rgba(26, 11, 46, 1); */
     margin: 0;
 }
 
@@ -167,7 +169,7 @@ header hr{
 /* Podcast rating */
 main{
     max-width: 1600px;
-    background-color: rgba(26, 11, 46, 1);
+    /* background-color: rgba(26, 11, 46, 1); */
     
 }
 
@@ -219,3 +221,76 @@ main{
 }
 
 /* Podcast Rating Ends Here */
+/* choose techwave section starts here */
+.choose-techwave{
+    max-width: 100%;
+    background-color: rgba(35, 14, 61, 1);
+    color:white;
+    padding:120px 0px;
+}
+
+.ct-container{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.ct-container h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+.ct-container .ct-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,225px) 273px;
+    gap:30px;
+    margin-top:40px;
+}
+
+.ct-container .ct-content div{
+    border-radius: 40px;
+    background-color: rgba(53, 17, 101, 0.4);
+    padding:40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.audio{
+    grid-row:span 2;
+    grid-column: span 1;
+    
+}
+.mobile{
+    grid-column: span 2;
+    grid-row: span 1;
+    
+}
+.community{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.interview{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.resources{
+    grid-row: span 1;
+    grid-column: span 1;
+}
+.ct-container .ct-content div p{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    
+}
+.ct-container .ct-content div h4{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 16px 0;
+}
+
+/* choose techwave section ends here */
