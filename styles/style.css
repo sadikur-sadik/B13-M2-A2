@@ -6,6 +6,11 @@
     
 }
 
+
+
+
+
+
 /* common classes  */
 body{
      background-color: rgba(26, 11, 46, 1);
@@ -19,22 +24,61 @@ body{
 .basic-btn{
     border-radius: 10000px;
     border: none;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform .3s ease-in-out;
 }
+.basic-btn:hover{
+    box-shadow: 1px 0px 30px grey;
+    transform:scale(1.05,1.05);
+}
+
+
+
+
+
+
+
+/* Keyframes */
+@keyframes earthquake{
+    0%{ transform: translate(-100px,0);}
+    10%{ transform: translate(100px,0);}
+    20%{ transform: translate(-80px,0);}
+    30%{ transform: translate(80px,0);}
+    40%{ transform: translate(-60px,0);}
+    50%{ transform: translate(60px,0);}
+    60%{ transform: translate(-40px,0);}
+    70%{ transform: translate(40px,0);}
+    80%{ transform: translate(-20px,0);}
+    90%{  transform: translate(20px,0);}
+    100%{ transform: translate(0);}
+}
+@keyframes glowup {
+    0%{
+        box-shadow: none;
+    }
+    50%{
+        box-shadow: 1px 1px 30px rgba(255, 9, 193, 0.61);
+    }
+    100%{
+        box-shadow: none;
+    }
+}
+/* Keyframes */
 
         /* Navigation Bar */
 
 header{
     max-width: 1600px;
-    /* background-color: rgba(26, 11, 46, 1); */
     margin: 0;
 }
-
+.nav-logo{
+    animation: earthquake 2s ease 0.1s 1;
+}
 header nav{
     color:white;
     margin: 0 auto;
@@ -46,22 +90,19 @@ header nav{
     
 
 }
-/* header nav .nav-logo{
-    width: 219px;
-} */
+
 header nav ul{
     display: flex;
     list-style: none;
     gap:32px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
 }
 
 header nav .nav-button .btn-nav{
     
     padding: 12px 16px;
-    
-
+   
 }
 header nav .nav-button button img{
     background: transparent;
@@ -102,6 +143,8 @@ header hr{
     background: url(../assets/hero-circle.png);
     padding: 69px 75px 81px 75px;
     position: relative;
+    animation: glowup 1s linear infinite;
+    
 }
 
 .hero .hero-content .hc-img span{
@@ -115,7 +158,7 @@ header hr{
     position: absolute;
     top: 12px;
     right:23px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
 
 }
@@ -123,6 +166,7 @@ header hr{
     height: 200px;
     width: 200px;
     padding: 8.33px 41.67px 16.67px 41.67px;
+    
 }
 
 /* Hero content content section */
@@ -138,7 +182,7 @@ header hr{
 }
 
 .hero .hero-content .hc-content p{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.8);
     margin-bottom: 24px;
@@ -186,12 +230,12 @@ main{
 
 .about-div .about-podcast h3{
     color: white;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     margin-bottom: 16px;
 }
 .about-div .about-podcast p{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.8);
 }
@@ -209,13 +253,13 @@ main{
 }
 .about-rating h2{
     color: rgba(0, 255, 136, 1);
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
     margin-bottom:16px;
 }
 .about-rating p{
     color: rgba(255, 255, 255, 0.8);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -234,7 +278,7 @@ main{
     text-align: center;
 }
 .ct-container h1{
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
 }
 
@@ -281,13 +325,13 @@ main{
 }
 .ct-container .ct-content div p{
     color: rgba(255, 255, 255, 0.6);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     text-align: left;
     
 }
 .ct-container .ct-content div h4{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
     margin: 16px 0;
 }
@@ -307,7 +351,7 @@ main{
     /* color:white; */
 }
 .episodes-section .e-container>h1{
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     text-align: center;
     margin-bottom: 40px;
@@ -334,12 +378,12 @@ main{
     text-align: left;
 }
 .contentofepisode h5{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
 .contentofepisode>p{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
     color: rgba(255, 255, 255, 0.6);
@@ -360,7 +404,7 @@ main{
 }
 .host>h1{
     text-align: center;
-    font-size: 48px;
+    font-size:3rem;
     font-weight: 700;
     margin-bottom: 40px;
 }
@@ -378,11 +422,11 @@ main{
     gap:16px;
 }
 .host-content .host-bio h1{
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
 }
 .host-content .host-bio p{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
     color:rgba(255, 255, 255, 0.6);
@@ -441,7 +485,7 @@ footer .footer{
     display: flex;
     
     justify-content: center;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     text-align: center;
     gap: 8px;
@@ -451,7 +495,7 @@ footer .footer{
 }
 .copyright{
     color: rgba(250, 250, 250, .6);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     text-align: center;
 }

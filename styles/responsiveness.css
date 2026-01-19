@@ -72,7 +72,7 @@ header nav .nav-hamburger{
 }
 
 .about-div .about-podcast h3{
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 .about-div hr{
@@ -85,7 +85,7 @@ header nav .nav-hamburger{
     
 }
 .about-rating h2{
-    font-size: 40px;
+    font-size: 2.5rem;
 
 }
 /* Podcast Rating Ends Here */
@@ -99,7 +99,7 @@ header nav .nav-hamburger{
     width: 91%;
 }
 .ct-container h1{
-    font-size: 32px;
+    font-size: 2rem;
 
 }
 
@@ -126,7 +126,7 @@ header nav .nav-hamburger{
 }
 
 .ct-container .ct-content div h4{
-    font-size: 22px;
+    font-size: 1.375rem;
 
 }
 
@@ -144,7 +144,7 @@ header nav .nav-hamburger{
     /* color:white; */
 }
 .episodes-section .e-container>h1{
-    font-size: 32px;
+    font-size: 2rem;
     margin-bottom: 24px;
 }
 .video-episodes{
@@ -162,7 +162,7 @@ header nav .nav-hamburger{
     padding:16px;
 }
 .contentofepisode h5{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .contentofepisode>p{
@@ -175,7 +175,7 @@ header nav .nav-hamburger{
     margin-top: 60px;
 }
 .host>h1{
-    font-size: 32px;
+    font-size: 2rem;
     margin-bottom: 24px;
 }
 .host-content{
@@ -190,7 +190,7 @@ header nav .nav-hamburger{
     gap:16px;
 }
 .host-content .host-bio h1{
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .host-content .host-bio .host-contacts {
