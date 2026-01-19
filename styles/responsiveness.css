@@ -27,7 +27,7 @@ header nav .nav-hamburger{
     background: url(../assets/hero-bg.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position:0% 30% ;
+    background-position:0% 25% ;
    
 }
 
@@ -57,5 +57,7 @@ header nav .nav-hamburger{
     width: 80px;
     padding: 3.33px 16.67px 6.67px 16.67px ;
 }
+
+/* Header Responsiveness is completed */
     
 }
