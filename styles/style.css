@@ -3,13 +3,32 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
-    background-color: rgba(26, 11, 46, 1);
+    
+}
+
+/* common classes  */
+
+.gradient-btn{
+     background: linear-gradient(45deg ,yellow , rgb(255, 4, 100)  , purple );
+     color:rgba(255, 255, 255, 1);
+    }
+
+.basic-btn{
+    border-radius: 10000px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
         /* Navigation Bar */
 
 header{
     max-width: 1600px;
+    background-color: rgba(26, 11, 46, 1);
 }
 
 header nav{
@@ -20,8 +39,12 @@ header nav{
     align-items: center;
     justify-content: space-between;
     padding: 1rem 0;
+    
 
 }
+/* header nav .nav-logo{
+    width: 219px;
+} */
 header nav ul{
     display: flex;
     list-style: none;
@@ -30,17 +53,10 @@ header nav ul{
     font-weight: 500;
 }
 
-header nav .nav-button button{
-    color:rgba(255, 255, 255, 1);
-    font-size: 16px;
-    font-weight: 600;
-    background: linear-gradient(to top right,yellow 15%, rgb(255, 4, 100) 30% , purple 60% );
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10000px;
+header nav .nav-button .btn-nav{
+    
     padding: 12px 16px;
-    border: none;
+    
 
 }
 header nav .nav-button button img{
@@ -49,4 +65,95 @@ header nav .nav-button button img{
 
 header nav .nav-hamburger{
     display: none;
+}
+
+
+/* Navigation is done */
+
+.hero{
+    /* height: 760px; */
+    padding: 101px 0;
+    background: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero .hero-content{
+    width: 550px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* Hero content image section */
+.hero .hero-content .hc-img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background: url(../assets/hero-circle.png);
+    padding: 69px 75px 81px 75px;
+    position: relative;
+}
+
+.hero .hero-content .hc-img span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px 8px 16px;
+    border-radius: 1000px;
+    box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
+    background-color: rgba(0, 255, 136, 1);
+    position: absolute;
+    top: 12px;
+    right:23px;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.hero .hero-content .hc-img img{
+    height: 200px;
+    width: 200px;
+    padding: 8.33px 41.67px 16.67px 41.67px;
+}
+
+/* Hero content content section */
+.hero .hero-content .hc-content{
+    text-align: center;
+    color:white;
+}
+
+.hero .hero-content .hc-content h3{
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.hero .hero-content .hc-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 24px;
+    
+}
+.hcc-btn{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.hero .hero-content .hc-content .hcc-first-btn{
+    
+    padding: 12px 20px;
+    gap:8px;
+   
+    
+}
+.hero .hero-content .hc-content .normal-btn{
+    color:rgba(0, 255, 136, 1);
+    padding: 12px 20px;
+    gap:8px;
+    background: transparent;
+    border: 1px solid rgba(0, 255, 136, 1);
 }

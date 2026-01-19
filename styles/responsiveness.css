@@ -12,18 +12,50 @@ header nav{
     color:white;
     margin: 0 auto;
     width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* padding:  0px ; */
+}
+
+
+header nav .nav-hamburger{
+    display:inline;
+}
+
+
+/* Hero section responsiveness */
+
+.hero{
+    padding: 40px 0;
+    background: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:0% 30% ;
+   
+}
+
+.hero .hero-content{
+    width: 91%;
+   
+}
+/* Hero content image section */
+.hero .hero-content .hc-img{
+    height: 200px;
+    width: 200px;
+    background: url(../assets/hero-circle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 60px;
+}
+.hero .hero-content .hc-img span{
+   
+    top: 0;
+    right:0;
 
 }
 
-/* .nav-logo{
-    width: 137px;
-} */
-header nav .nav-hamburger{
-    display:inline;
+.hero .hero-content .hc-img img{
+    height: 80px;
+    width: 80px;
+    padding: 3.33px 16.67px 6.67px 16.67px ;
 }
     
 }
